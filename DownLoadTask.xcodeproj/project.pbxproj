@@ -13,6 +13,7 @@
 		986D004A1E9F4BCF00B53998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 986D00481E9F4BCF00B53998 /* Main.storyboard */; };
 		986D004C1E9F4BCF00B53998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 986D004B1E9F4BCF00B53998 /* Assets.xcassets */; };
 		986D004F1E9F4BCF00B53998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 986D004D1E9F4BCF00B53998 /* LaunchScreen.storyboard */; };
+		986D00581E9F4BF800B53998 /* DownLoadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 986D00571E9F4BF800B53998 /* DownLoadTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		986D004B1E9F4BCF00B53998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		986D004E1E9F4BCF00B53998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		986D00501E9F4BCF00B53998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		986D00561E9F4BF800B53998 /* DownLoadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadTask.h; sourceTree = "<group>"; };
+		986D00571E9F4BF800B53998 /* DownLoadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoadTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				986D004D1E9F4BCF00B53998 /* LaunchScreen.storyboard */,
 				986D00501E9F4BCF00B53998 /* Info.plist */,
 				986D003F1E9F4BCF00B53998 /* Supporting Files */,
+				986D00561E9F4BF800B53998 /* DownLoadTask.h */,
+				986D00571E9F4BF800B53998 /* DownLoadTask.m */,
 			);
 			path = DownLoadTask;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986D00581E9F4BF800B53998 /* DownLoadTask.m in Sources */,
 				986D00471E9F4BCF00B53998 /* ViewController.m in Sources */,
 				986D00441E9F4BCF00B53998 /* AppDelegate.m in Sources */,
 				986D00411E9F4BCF00B53998 /* main.m in Sources */,

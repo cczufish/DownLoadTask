@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DownLoadTask.h"
 
 @interface ViewController : UIViewController
+@property (nonatomic, strong) DownLoadTask *dtask;
 
 
 @end
